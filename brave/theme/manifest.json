@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Cinder Day",
+  "version": "1.0",
+  "description": "Ash theme from the COSMIC Cinder Day rice: sage icons, one burnt-orange accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [232, 227, 227],
+      "frame_inactive": [232, 227, 227],
+      "frame_incognito": [232, 227, 227],
+      "frame_incognito_inactive": [232, 227, 227],
+      "background_tab": [232, 227, 227],
+      "background_tab_inactive": [232, 227, 227],
+      "background_tab_incognito": [232, 227, 227],
+      "background_tab_incognito_inactive": [232, 227, 227],
+      "toolbar": [243, 239, 239],
+      "tab_text": [163, 61, 0],
+      "tab_background_text": [96, 93, 82],
+      "tab_background_text_inactive": [96, 93, 82],
+      "tab_background_text_incognito": [96, 93, 82],
+      "tab_background_text_incognito_inactive": [96, 93, 82],
+      "bookmark_text": [27, 26, 26],
+      "toolbar_button_icon": [96, 93, 82],
+      "omnibox_background": [211, 203, 203],
+      "omnibox_text": [27, 26, 26],
+      "ntp_background": [232, 227, 227],
+      "ntp_text": [27, 26, 26],
+      "ntp_link": [163, 61, 0]
+    }
+  }
+}

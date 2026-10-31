@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic Cinder Day",
+  "version": "1.0",
+  "description": "Ash theme from the COSMIC Cinder Day rice: sage icons, one burnt-orange accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{130e4273-5576-56ff-9be6-1072a576f140}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#F3EFEF",
+      "toolbar_text": "#1b1a1a",
+      "frame": "#E8E3E3",
+      "tab_background_text": "#605d52",
+      "tab_text": "#a33d00",
+      "toolbar_field": "#d3cbcb",
+      "toolbar_field_text": "#1b1a1a",
+      "toolbar_field_border_focus": "#A33D00",
+      "toolbar_field_highlight": "#A33D00",
+      "toolbar_field_highlight_text": "#E8E3E3",
+      "tab_line": "#A33D00",
+      "popup": "#F3EFEF",
+      "popup_text": "#1b1a1a",
+      "button_background_active": "#A33D00",
+      "button_background_hover": "#d3cbcb",
+      "frame_inactive": "#E8E3E3",
+      "icons_attention": "#A33D00",
+      "icons": "#605d52",
+      "ntp_background": "#E8E3E3",
+      "ntp_text": "#1b1a1a",
+      "popup_border": "#5F5959",
+      "popup_highlight_text": "#E8E3E3",
+      "popup_highlight": "#A33D00",
+      "sidebar_border": "#d3cbcb",
+      "sidebar_highlight_text": "#E8E3E3",
+      "sidebar_highlight": "#A33D00",
+      "sidebar_text": "#1b1a1a",
+      "tab_loading": "#A33D00"
+    }
+  }
+}
