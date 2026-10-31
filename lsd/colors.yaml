@@ -1,0 +1,41 @@
+# 256-colour codes nearest the Cinder Day palette on ash (lsd 1.0.0 does not accept
+# #hex here): 130 orange, 130 brick, 94 peach, 240 sage, 240 sand,
+# 240 olive, 245 taupe, 241 slate.
+user: 240
+group: 245
+permission:
+  read: 245
+  write: 240
+  exec: 130
+  exec-sticky: 130
+  no-access: 241
+  octal: 240
+  acl: 240
+  context: 240
+date:
+  hour-old: 240
+  day-old: 240
+  older: 241
+size:
+  none: 241
+  small: 240
+  medium: 240
+  large: 130
+inode:
+  valid: 240
+  invalid: 130
+links:
+  valid: 240
+  invalid: 130
+tree-edge: 241
+git-status:
+  default: 241
+  unmodified: 241
+  ignored: 241
+  new-in-index: 240
+  new-in-workdir: 240
+  typechange: 240
+  deleted: 130
+  renamed: 240
+  modified: 94
+  conflicted: 130
