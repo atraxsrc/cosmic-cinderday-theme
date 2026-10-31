@@ -1,18 +1,18 @@
 {
-  "name": "cosmic-cinderday-theme",
-  "displayName": "Cosmic Cinder Day",
-  "description": "Dark colour theme from the COSMIC Cinder Day rice, syntax as in its Neovim scheme.",
+  "name": "cosmic-cinder-theme",
+  "displayName": "Cosmic Cinder / Cosmic Cinder Day",
+  "description": "Cosmic Cinder (dark) and Cosmic Cinder Day (light), the COSMIC rice pair, for Cursor and VS Code",
   "version": "1.0.0",
   "publisher": "atraxsrc",
   "license": "MIT",
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#E8E3E3",
+    "color": "#121212",
     "theme": "dark"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atraxsrc/cosmic-cinderday-theme"
+    "url": "https://github.com/atraxsrc/cosmic-cinder-theme"
   },
   "engines": {
     "vscode": "^1.70.0"
@@ -23,12 +23,19 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "cosmic",
+    "cinder",
     "cinderday",
     "cursor"
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "Cosmic Cinder",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-cinder-color-theme.json"
+      },
       {
         "label": "Cosmic Cinder Day",
         "uiTheme": "vs",
