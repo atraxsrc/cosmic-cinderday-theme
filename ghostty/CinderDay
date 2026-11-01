@@ -1,0 +1,45 @@
+# CinderDay for Ghostty, part of cosmic-cinderday-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./ghostty/install.sh puts this in ~/.config/ghostty/themes/, then in
+# ~/.config/ghostty/config:
+#   theme = CinderDay
+# or, with the Cinder half installed too, following COSMIC's Dark / Light toggle:
+#   theme = dark:Cinder,light:CinderDay
+
+background = #E8E3E3
+foreground = #1B1A1A
+
+cursor-color = #A33D00
+cursor-text = #E8E3E3
+
+selection-background = #D3CBCB
+selection-foreground = #1B1A1A
+
+split-divider-color = #D3CBCB
+unfocused-split-fill = #E8E3E3
+
+# black
+palette = 0=#EDEAEA
+palette = 8=#AEA7A7
+# red
+palette = 1=#9E352E
+palette = 9=#8A2820
+# green
+palette = 2=#605D52
+palette = 10=#605D53
+# yellow
+palette = 3=#62604C
+palette = 11=#525040
+# blue
+palette = 4=#A33D00
+palette = 12=#863300
+# magenta
+palette = 5=#8F4D23
+palette = 13=#723D1B
+# cyan
+palette = 6=#626060
+palette = 14=#5F5959
+# white
+palette = 7=#0E0D0D
+palette = 15=#131111

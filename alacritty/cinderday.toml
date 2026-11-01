@@ -1,0 +1,80 @@
+# CinderDay for Alacritty, part of cosmic-cinderday-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./alacritty/install.sh puts this in ~/.config/alacritty/themes/,
+# then in ~/.config/alacritty/alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/cinderday.toml"]
+# (Alacritty 0.13: a top-level `import = [...]` line instead.)
+
+[colors.primary]
+background = "#E8E3E3"
+foreground = "#1B1A1A"
+bright_foreground = "#0E0D0D"
+dim_foreground = "#626060"
+
+[colors.cursor]
+text = "#E8E3E3"
+cursor = "#A33D00"
+
+[colors.vi_mode_cursor]
+text = "#E8E3E3"
+cursor = "#8F4D23"
+
+[colors.selection]
+text = "CellForeground"
+background = "#D3CBCB"
+
+[colors.search.matches]
+foreground = "#E8E3E3"
+background = "#62604C"
+
+[colors.search.focused_match]
+foreground = "#E8E3E3"
+background = "#A33D00"
+
+[colors.hints.start]
+foreground = "#E8E3E3"
+background = "#8F4D23"
+
+[colors.hints.end]
+foreground = "#E8E3E3"
+background = "#62604C"
+
+[colors.footer_bar]
+foreground = "#1B1A1A"
+background = "#F3EFEF"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black   = "#EDEAEA"
+red     = "#9E352E"
+green   = "#605D52"
+yellow  = "#62604C"
+blue    = "#A33D00"
+magenta = "#8F4D23"
+cyan    = "#626060"
+white   = "#0E0D0D"
+
+[colors.bright]
+black   = "#AEA7A7"
+red     = "#8A2820"
+green   = "#605D53"
+yellow  = "#525040"
+blue    = "#863300"
+magenta = "#723D1B"
+cyan    = "#5F5959"
+white   = "#131111"
+
+[colors.dim]
+black   = "#E8E3E3"
+red     = "#AD5F59"
+green   = "#797777"
+yellow  = "#646253"
+blue    = "#A75A2C"
+magenta = "#764424"
+cyan    = "#807C72"
+white   = "#5F5959"
