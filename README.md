@@ -13,6 +13,7 @@ the dark half is [cosmic-cinder-theme](https://github.com/atraxsrc/cosmic-cinder
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-605d52?style=for-the-badge)
 ![Cinder Day](https://img.shields.io/badge/Theme-CinderDay-E8E3E3?style=for-the-badge&labelColor=a33d00)
 ![Firefox](https://img.shields.io/badge/Firefox-CinderDay-a33d00?style=for-the-badge&logo=firefox-browser&logoColor=white)
+[![Gallery](https://img.shields.io/badge/Gallery-All_rices-a33d00?style=for-the-badge)](https://atraxsrc.github.io/cosmic-rices/)
 ![License](https://img.shields.io/badge/License-MIT-626060?style=for-the-badge)
 
 </div>
