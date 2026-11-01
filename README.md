@@ -454,7 +454,7 @@ Restart open apps afterwards (Files caches icons per window).
 Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
-Wallpapers ship in [`backgrounds/`](backgrounds/), named `cinderday-<subject>`, the same pictures as Cinder, lifted into Cinder Day's light greys:
+Wallpapers ship in [`backgrounds/`](backgrounds/), named `cinderday-<subject>`, the same pictures as Cinder, flipped onto Cinder Day's light greys:
 five renders in the palette's own greys, the driver leaning on his car, the
 coupe from the front and from the side, the spider tank and a canal between
 tower blocks, plus the anime portrait from the screenshot (`cinderday-anime.png`)
