@@ -1,0 +1,6 @@
+name = "Cinder Day"
+mode = "light"
+theme = "CinderDay.ron"
+pair = "cinder"
+terminal = "CinderDay-term.ron"
+btop = "CinderDay"
