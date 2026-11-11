@@ -213,26 +213,19 @@ Firefox and the shell layer do not follow the toggle; those are per-rice files.
 
 | Where | Setting |
 |-------|---------|
-| Fonts | Interface `Maple Mono Normal` Light, monospace `Maple Mono Normal NFM` |
+| Fonts | Interface `Maple Normal UI`, monospace `Maple Mono Normal`, both in `fonts/` |
 | Icons | Cosmic-CinderDay-Dark |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, Cinder Day |
 
-Install the [Maple fonts](https://github.com/subframe7536/maple-font/releases)
-(Maple Mono Normal and Maple Mono Normal NFM) and the Cosmic-CinderDay icons (see
-Icons below) and import the terminal scheme first, then:
+Run `./fonts/install.sh` (the two COSMIC fonts, shipped in this repo), install the
+Cosmic-CinderDay icons (see Icons below) and import the terminal scheme first, then:
 
 ```bash
 ./cosmic/install.sh
 ```
 
 It backs up each file it replaces to `*.bak` and COSMIC applies it live.
-
-The interface font is the Light weight on purpose. COSMIC sets interface text
-brightness itself (the text tint only picks the hue), so on these light panels
-labels land near ![#4A483B](https://placehold.co/12x12/4a483b/4a483b.png) `#4A483B` whatever tint you choose; the thinner strokes are
-what calms them at night. Settings → Fonts lists only families, so the weight
-lives in `cosmic/config/com.system76.CosmicTk/v1/interface_font`.
 
 ---
 
@@ -798,7 +791,8 @@ mkdir -p ~/.config/btop/themes && cp btop/CinderDay.theme ~/.config/btop/themes/
 # Settings → Wallpaper → Add image → a file from backgrounds/ (see Icons and wallpaper above)
 
 ./icons/install.sh                  # icons (see Icons above)
-# Maple fonts (https://github.com/subframe7536/maple-font), then
+./fonts/install.sh                  # Maple Normal UI + Maple Mono Normal for COSMIC
+# Maple Mono Normal NFM for the terminals (https://github.com/subframe7536/maple-font), then
 # fonts, icons, terminal look from cosmic/config/
 ./cosmic/install.sh
 ```
